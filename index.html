@@ -26,15 +26,7 @@
   <header class="site-header" id="top">
     <div class="container site-header__inner">
       <a class="brand" href="#top" aria-label="המסלול – כושר קרבי, לדף הבית">
-        <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true">
-          <rect width="48" height="48" rx="11" fill="currentColor" opacity=".14"/>
-          <path d="M9 38 C18 35 15 26 24 23 S36 23 33 13" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
-          <circle cx="33" cy="11" r="4" fill="var(--accent)"/>
-        </svg>
-        <span class="brand__text">
-          <span class="brand__name">המסלול</span>
-          <span class="brand__tag">כושר קרבי</span>
-        </span>
+        <img class="brand__logo" src="assets/logo.png" width="219" height="81" alt="המסלול">
       </a>
 
       <nav class="nav" id="site-nav" aria-label="ניווט ראשי">
@@ -125,6 +117,11 @@
       </div>
     </section>
 
+    <!-- ============ Photo band ============ -->
+    <figure class="photo-band">
+      <img src="assets/photos/band-mud-stretcher.webp" width="1680" height="529" alt="חניכי המסלול סוחבים אלונקה בריצה בתוך בוץ" loading="lazy" decoding="async">
+    </figure>
+
     <!-- ============ Why ============ -->
     <section class="section section--white" id="why" aria-labelledby="why-title">
       <div class="container">
@@ -153,6 +150,17 @@
             <a class="link" href="#method">הצוות המקצועי</a>
           </article>
         </div>
+      </div>
+    </section>
+
+    <!-- ============ Gallery ============ -->
+    <section class="section section--white gallery" aria-label="תמונות מהשטח">
+      <div class="container">
+        <ul class="gallery__grid">
+          <li class="gallery__item reveal"><img src="assets/photos/run-sea-portrait.webp" width="499" height="657" alt="מתאמן רץ אל החוף בבגדים רטובים" loading="lazy" decoding="async"></li>
+          <li class="gallery__item reveal"><img src="assets/photos/run-beach-group.webp" width="583" height="677" alt="קבוצת חניכים רצה יחד על החוף" loading="lazy" decoding="async"></li>
+          <li class="gallery__item reveal"><img src="assets/photos/sea-teamwork.webp" width="631" height="499" alt="שני חניכים עוזרים זה לזה בתוך הים" loading="lazy" decoding="async"></li>
+        </ul>
       </div>
     </section>
 
@@ -293,9 +301,12 @@
           </figure>
 
           <aside class="women reveal" aria-labelledby="women-title">
-            <h3 id="women-title">קרבית זה הכי אחותי</h3>
-            <p>עשרות מסלוליסטיות, בוגרות המסלול, הן היום לוחמות ומפקדות עטורות שבחים וצל״שים. התאמנות שווה ביחד עם בנים שוברת את תקרת הזכוכית ומביאה תוצאות.</p>
-            <a class="btn btn--primary" href="#teams">רוצה להצטרף</a>
+            <div class="women__body">
+              <h3 id="women-title">קרבית זה הכי אחותי</h3>
+              <p>עשרות מסלוליסטיות, בוגרות המסלול, הן היום לוחמות ומפקדות עטורות שבחים וצל״שים. התאמנות שווה ביחד עם בנים שוברת את תקרת הזכוכית ומביאה תוצאות.</p>
+              <a class="btn btn--primary" href="#teams">רוצה להצטרף</a>
+            </div>
+            <img class="women__photo" src="assets/photos/women-mud.webp" width="635" height="499" alt="מתאמנת מחייכת תוך כדי אימון בבוץ" loading="lazy" decoding="async">
           </aside>
         </div>
       </div>
@@ -440,7 +451,7 @@
     <div class="container">
       <div class="site-footer__top">
         <div class="site-footer__brand">
-          <p class="site-footer__name">המסלול כושר קרבי</p>
+          <img class="site-footer__logo" src="assets/logo.png" width="219" height="81" alt="המסלול כושר קרבי" loading="lazy">
           <p class="site-footer__desc">עמותה לעידוד נוער לשירות צבאי משמעותי. פועלת כגוף קולט למעורבות חברתית ואחריות אישית במערכת הל״ל (גפ״ן, תכנית 45870).</p>
         </div>
         <nav aria-label="קישורים באתר" class="site-footer__col">
